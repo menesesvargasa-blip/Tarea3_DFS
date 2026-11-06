@@ -1,0 +1,32 @@
+/* Transiciones suaves para la interactividad de la UI */
+.task-item {
+  transition: all 0.2s ease-in-out;
+}
+
+.task-item:hover {
+  transform: translateY(-1px);
+}
+
+/* Efecto de rayado progresivo para tareas completadas */
+.completed-text {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+/* Scrollbar personalizado */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c7d2fe;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #818cf8;
+}
