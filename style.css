@@ -30,3 +30,14 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #818cf8;
 }
+
+.task-item {
+  transition: all 0.2s ease-in-out;
+}
+.task-item:hover {
+  transform: translateY(-1px);
+}
+.completed-text {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
